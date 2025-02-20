@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>DIKSERVER.COM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-4xl mx-auto p-4">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="text-center mb-6">
+                <img alt="DIKSERVER.COM logo" class="mx-auto mb-4" height="100" src="https://i.ibb.co.com/BV2NKgV1/461254133-2471948096329743-6551592468532434724-n.jpg" width="100"/>
+                <h1 class="text-2xl font-bold text-blue-600">DIKSERVER.COM</h1>
+                <p class="text-sm text-gray-500">Jika Server Down Lebih dari 2x24jam akan kami Refund.</p>
+            </div>
+            <div class="bg-blue-100 text-blue-600 text-center py-2 rounded mb-6">
+                <p class="font-bold">ORDER RDP DAN VPS HARIAN DI SHOPEE KLIK DI SINI</p>
+            </div>
+            <div class="flex justify-center space-x-4 mb-6">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Dokumentasi</button>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="window.location.href='https://app.dikserver.com'">Login Dashboard</button>
+            </div>
+            <form id="orderForm">
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold mb-2">Select Service:</h2>
+                    <div class="space-y-4">
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="service" type="radio" value="VPS"/>
+                                <div>
+                                    <h3 class="font-bold">VPS (Virtual Private Server)</h3>
+                                    <ul class="list-disc list-inside text-sm text-gray-600">
+                                        <li>Aktif 30 hari</li>
+                                        <li>Full akses administrator</li>
+                                        <li>Full Garansi 30 Hari</li>
+                                        <li>6 Pilihan OS</li>
+                                        <li>Tinggal Pakai!</li>
+                                        <li>Bisa perpanjang</li>
+                                    </ul>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="service" type="radio" value="RDP"/>
+                                <div>
+                                    <h3 class="font-bold">RDP (Remote Desktop Protocol)</h3>
+                                    <ul class="list-disc list-inside text-sm text-gray-600">
+                                        <li>Aktif 30 hari</li>
+                                        <li>Full akses administrator</li>
+                                        <li>Full Garansi 30 Hari</li>
+                                        <li>5 Window Pilihan</li>
+                                        <li>Tinggal Pakai!</li>
+                                        <li>Bisa perpanjang</li>
+                                    </ul>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold mb-2">Choose Region:</h2>
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="text-center border rounded p-4">
+                            <label class="flex items-center space-x-2">
+                                <input class="mt-1" name="region" type="radio" value="New York"/>
+                                <div>
+                                    <img alt="New York flag" class="mx-auto mb-2" height="50" src="https://flagcdn.com/w320/us.png" width="50"/>
+                                    <p>New York</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold mb-2">Choose Image:</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 2012"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 2012</h3>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 2016"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 2016</h3>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 2019"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 2019</h3>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 2022"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 2022</h3>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 10"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 10</h3>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="image" type="radio" value="Windows 11"/>
+                                <div>
+                                    <h3 class="font-bold">Windows 11</h3>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold mb-2">Choose CPU:</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="2 CPU / 4 GB RAM" onclick="updatePrice('Rp. 95.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">2 CPU / 4 GB RAM</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>60 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="4 CPU / 8 GB RAM" onclick="updatePrice('Rp. 170.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">4 CPU / 8 GB RAM</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>60 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="6 Core / 16 GB" onclick="updatePrice('Rp. 290.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">6 Core / 16 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>60 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="8 Core / 16 GB" onclick="updatePrice('Rp. 310.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">8 Core / 16 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>60 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="8 Core / 32 GB" onclick="updatePrice('Rp. 390.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">8 Core / 32 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>100 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="8 Core / 64 GB" onclick="updatePrice('Rp. 620.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">8 Core / 64 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>100 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="10 Core / 16 GB" onclick="updatePrice('Rp. 320.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">10 Core / 16 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>100 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="12 Core / 48 GB" onclick="updatePrice('Rp. 470.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">12 Core / 48 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>60 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="16 Core / 64 GB" onclick="updatePrice('Rp. 990.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">16 Core / 64 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>250 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="32 Core / 128 GB" onclick="updatePrice('Rp. 1.600.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">32 Core / 128 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>250 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="64 Core / 64 GB" onclick="updatePrice('Rp. 1.900.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">64 Core / 64 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>250 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="border rounded p-4">
+                            <label class="flex items-start space-x-2">
+                                <input class="mt-1" name="cpu" type="radio" value="64 Core / 128 GB" onclick="updatePrice('Rp. 2.600.000 Per bulan')"/>
+                                <div>
+                                    <h3 class="font-bold">64 Core / 128 GB</h3>
+                                    <p class="text-sm text-gray-600">Bandwidth Unlimited<br/>250 GB NVME SSD</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h2 class="text-lg font-bold mb-2">Harga:</h2>
+                    <p id="price" class="text-lg font-bold text-blue-600">Pilih CPU untuk melihat harga</p>
+                </div>
+                <div class="mb-6">
+                    <input class="w-full border rounded p-2" id="email" placeholder="Masukkan Email" type="email" required/>
+                </div>
+                <p class="text-xs text-gray-500 mb-6">
+                    *Email ini akan digunakan sebagai login di halaman ini Dashboard Dikserver Dashboard Dikserver, Untuk sekarang ketika klik tombol bayar sekarang tinggal pilih pembayaran dan selesaikan pembayaran. Jika anda baru pertama beli kami akan mengirimkan pesan password melalui email anda yang digunakan untuk login.
+                    <a class="text-blue-500" href="#">Tutorial Dikserver</a>
+                </p>
+                <div class="text-center">
+                    <button class="bg-blue-500 text-white px-6 py-2 rounded" type="submit">Bayar sekarang</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function updatePrice(price) {
+            document.getElementById('price').innerText = price;
+        }
+
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const service = document.querySelector('input[name="service"]:checked').value;
+            const region = document.querySelector('input[name="region"]:checked').value;
+            const image = document.querySelector('input[name="image"]:checked').value;
+            const cpu = document.querySelector('input[name="cpu"]:checked').value;
+            const email = document.getElementById('email').value;
+            const price = document.getElementById('price').innerText;
+            const message = `Service: ${service}%0ARegion: ${region}%0AImage: ${image}%0ACPU: ${cpu}%0AHarga: ${price}%0AEmail: ${email}`;
+            const whatsappUrl = `https://wa.me/62895626163728?text=${message}`;
+            window.location.href = whatsappUrl;
+        });
+
+        document.querySelector('.bg-blue-100').addEventListener('click', function() {
+            window.location.href = 'https://id.shp.ee/CF7JsLR';
+        });
+    </script>
+</body>
+</html>
